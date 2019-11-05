@@ -1,2 +1,5 @@
 Classy Numbers
 https://vjudge.net/problem/CodeForces-1036C
+
+Dirty Deeds Done Dirt Cheap
+https://vjudge.net/problem/CodeForces-1148D
