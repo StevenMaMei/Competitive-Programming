@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576525718 source:d:\escritorio\competitive_programming\contest\div2_602\d2\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
