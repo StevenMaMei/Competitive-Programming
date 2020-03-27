@@ -11,7 +11,6 @@ int n;
 char sudoku[7][7];
 char restrictionsRow[7][7];
 char restrictionsCols[7][7];
-queue<pp> avaiblePos;
 int rows[7];
 int cols[7];
 bool allMatrixFilled(){
@@ -87,7 +86,6 @@ bool solve(int ii, int jj){
                 if(next.ff != -1){
                         //cout<<ii<<" "<<jj<<" "<<next.ff<<" "<<next.ss<<endl;
                     thisNumCan = thisNumCan && solve(next.ff,next.ss);
-                    if(!thisNumCan) avaiblePos.push(next);
                 }else{
                     thisNumCan = thisNumCan && meetConditions();
                 }
@@ -143,11 +141,6 @@ int main()
 
                 }
             }
-        }
-    }
-    fore(i,0,n){
-        fore(j,0,n){
-            if(sudoku[i][j]=='-') avaiblePos.push({i,j});
         }
     }
 
