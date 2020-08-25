@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594932022 source:d:\escritorio\competitive_programming\argetinatc_2020\day3_topcoder\bug_in_code\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
